@@ -22,6 +22,17 @@
 
     <include layout="@layout/lb_title_view_logo"/>
 
+    <!-- Modified by Robin: custom text shown in the title area -->
+    <TextView
+        android:id="@+id/modified_by_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Modified by Robin"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <!-- MOD: add additional buttons -->
     <LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
