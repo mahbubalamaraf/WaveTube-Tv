@@ -34,6 +34,18 @@
         android:layout_gravity="center_vertical|end"
         style="?attr/browseTitleTextStyle"/>
 
+    <!-- Modified by Robin: custom text shown in the empty title area -->
+    <TextView
+        android:id="@+id/modified_by_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lb_browse_title_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical"
+        android:text="Modified by Robin"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <androidx.leanback.widget.SearchOrbView
         android:id="@+id/title_orb"
         android:layout_height="wrap_content"
